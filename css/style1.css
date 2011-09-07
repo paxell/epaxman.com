@@ -1,0 +1,164 @@
+/* Stylesheet for PAXELL: Illustration styles
+/////////////////////////////////////////////
+
+Global clours: 
+mid grey:#777777;
+dark blue:#06393f; 
+light blue:#a1ecf0; 
+very light blue:#d5f5f9;
+
+////////////////////////
+*/
+
+/* 1.0 OVERRIDE STYLES
+//////////////////////*/
+
+body, html, p, ul, ul li, h1, h2
+{ margin:0px; padding:0px; }
+
+body
+{ font-size:16px; font-family: 'Neucha', arial, serif; color:#06393f; background:#06393f;}
+
+img
+{ border:none; }
+
+a:link, a:visited
+{ text-decoration:none; }
+
+a:hover
+{ text-decoration:underline; }
+
+a:active
+{ text-decoration:none; }
+
+/* 2.0 LAYOUT STYLES
+////////////////////*/
+
+#home
+{ height:464px; background:url('../images/top_rail.gif') repeat-x top left; }
+
+	#header, .dividertop, .dividerbottom, #homecontent, #my_work, #footer
+	{ width:1040px; margin:0px auto; }
+	
+	#header
+	{ height:83px; text-shadow:0px 1px #fff; }
+	
+		#logo
+		{ float:left; width:150px; font-size:48px; padding:15px 10px; }
+		
+		#nav
+		{ float:right; width:700px; font-size:22px; padding:30px 10px; 20px 0px; }
+		
+			#nav ul
+			{ text-align:right; list-style-type:none; }
+			
+				#nav ul li
+				{ display:inline; margin-left:16px; text-transform:uppercase; }
+				
+					#nav ul li a:link, #nav ul li a:visited
+					{ color:#06393f; }
+					
+					#nav ul li a:hover
+					{ color:#000; text-decoration:none; }
+					
+					#nav ul li a:active
+					{ color:#06393f; }
+	
+	#homecontent
+	{ height:373px; background:url('../images/top_ill.gif') no-repeat bottom right; }
+	
+		#homecontentpadding
+		{ padding:30px 420px 100px 15px; }
+
+#bottom
+{ background:#06393f; }
+
+	#my_work
+	{ background:url('../images/bottom_ill.gif') no-repeat top right; padding-top:30px; }
+
+#footer
+{ text-align:center; height:50px; color:#fff; }
+
+.dividertop,.dividerbottom
+{ height:6px; background:url('../images/rule.gif') repeat-x top left; clear:both; }
+
+.dividertop
+{ box-shadow:0px 2px #fff; -moz-box-shadow:0px 2px #777777; }
+
+.dividerbottom
+{ box-shadow:0px 2px #000; -moz-box-shadow:0px 2px #000; margin:30px 0px 40px 0px; }
+
+.examples
+{ float:left; width:327px; }
+
+.notfirst
+{ margin-left:29px; }
+
+.clear
+{ clear:both; }
+
+/* 3.0 TEXT STYLES
+//////////////////*/
+
+h1, h2
+{ letter-spacing:1px; font-size:30px; font-weight:normal; }
+
+h1
+{ color:#000; text-shadow:0px 1px #fff; margin-bottom:10px; }
+
+h2
+{ margin-bottom:30px; }
+
+h2, h3, #contact_me label
+{ color:#fff; text-shadow:0px 1px #000; }
+
+h3
+{ letter-spacing:1px; font-size:24px; font-weight:normal; }
+
+.thumbnail
+{ border:1px solid #a1ecf0; }
+
+p
+{ font-family:Arial, Helvetica, sans-serif; text-shadow:0px 1px #fff; font-size:15px; line-height:19px; }
+
+.toplinks
+{ color:#fff; text-decoration:underline; text-transform:uppercase; }
+
+.joblink
+{ color:#000; }
+
+/* 4.0 FORM STYLES
+//////////////////*/
+
+#contact_me
+{ margin-bottom:14px; }
+
+	#contact_me input, #contact_me textarea
+	{ border-radius:5px; -moz-border-radius:4px; border:1px solid #fff; padding:3px; }
+	
+	#contact_me input:focus, #contact_me textarea:focus
+	{ border:1px solid #a1ecf0; }
+	
+	#contact_me label
+	{ display:block; margin-bottom:4px; font-family:Arial, Helvetica, sans-serif; letter-spacing:1px; }
+	
+	#contact_me textarea
+	{ font-size:14px; font-family:arial, serif; }
+
+#formleft, #formright
+{ float:left; width:350px; }
+
+.fieldscontainer
+{ margin-bottom:14px; }
+
+.formfields
+{ height:30px; width:300px; font-size:16px; float:left; }
+
+.submitbtn
+{ font-size:20px; font-family: 'Neucha', arial, serif; height:49px; width:180px; background:url('../images/btn_rail.gif') repeat-x top left; text-shadow:0px 1px #fff; }
+
+	.submitbtn:hover
+	{ background:url('../images/btn_rail.gif') repeat-x bottom left; }
+
+.function
+{ display:none; }
